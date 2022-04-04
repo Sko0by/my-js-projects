@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  background-image: url("blackjackback.jpg");
+}
+.busted {
+  color: red;
+  size: 170px;
+  position: absolute;
+  top: 300px;
+  right: 580px;
+  width: 200px;
+  font-size: 30px;
+  height: 100px;
+}
+.dealerWin {
+  color: red;
+  size: 170px;
+  position: absolute;
+  top: 300px;
+  right: 580px;
+  width: 200px;
+  font-size: 30px;
+  height: 100px;
+}
+.youWin{
+  color: greenyellow;
+  size: 170px;
+  position: absolute;
+  top: 300px;
+  right: 580px;
+  width: 200px;
+  font-size: 30px;
+  height: 100px
+}
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.btn--new {
+  top: 1rem;
+}
+.btn--roll {
+  top: 37rem;
+}
+.btn--hold {
+  top: 40rem;
+}
+
+.btn:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+}
+.dice {
+  position: absolute;
+  left: 650px;
+  top: 24rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.card3 {
+  position: absolute;
+  left: 920px;
+  top: 24rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.card4 {
+  position: absolute;
+  left: 880px;
+  top: 24rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.card5 {
+  position: absolute;
+  left: 840px;
+  top: 24rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.card2 {
+  position: absolute;
+  left: 800px;
+  top: 24rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dealercardback {
+  position: absolute;
+  left: 650px;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dealercardback1 {
+  position: absolute;
+  left: 920px;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dealercardback2 {
+  position: absolute;
+  left: 880px;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dealercardback3 {
+  position: absolute;
+  left: 840px;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dealercardback4 {
+  position: absolute;
+  left: 800px;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.name {
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.nameDealer {
+  position: absolute;
+  left: 690px;
+  top: 3rem;
+  color: aliceblue;
+}
+.namePlayer {
+  position: absolute;
+  left: 700px;
+  top: 33rem;
+  color: aliceblue;
+}
+.hidden {
+  display: none;
+}
+.currentDealer {
+  position: absolute;
+  text-align: center;
+  left: 400px;
+  top: 10rem;
+  color: aliceblue;
+}
+.currentYou {
+  position: absolute;
+  text-align: center;
+  left: 400px;
+  top: 27rem;
+  color: aliceblue;
+}
